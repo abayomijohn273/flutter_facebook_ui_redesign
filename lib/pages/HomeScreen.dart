@@ -394,6 +394,34 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Text("Like"),
               ),
             ),
+            FlatButton(
+              onPressed: null,
+              child: Container(
+                padding: EdgeInsets.symmetric(horizontal: 15, vertical: 7),
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    width: 1,
+                    color: Colors.grey[700],
+                  ),
+                  borderRadius: BorderRadius.circular(50),
+                ),
+                child: Text("Comment"),
+              ),
+            ),
+            FlatButton(
+              onPressed: null,
+              child: Container(
+                padding: EdgeInsets.symmetric(horizontal: 15, vertical: 7),
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    width: 1,
+                    color: Colors.grey[700],
+                  ),
+                  borderRadius: BorderRadius.circular(50),
+                ),
+                child: Text("Like"),
+              ),
+            ),
             Container(
               child: FlatButton(
                 onPressed: null,
